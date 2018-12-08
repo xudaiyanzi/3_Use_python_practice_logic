@@ -59,7 +59,7 @@ with open(csvpath, newline='') as csvfile:
     #average the change, I should -1 because there are only row_count-1 changes
     average = row_change_sum / (row_count - 1)
 
-f = open("Pybank-out.txt","w")
+f = open("Pybank.txt","w")
 
 print("Financial Analysis",file = f)
 print("---------------------", file = f)
